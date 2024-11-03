@@ -1,0 +1,42 @@
+ * {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .image_section {
+     width: 100%;
+     height: 200px;
+     background-color: pink;
+     background-image: url("pink-sweet-dessert-bakery-background-design-pastry-candy-248503587.webp");
+     text-align: center;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+
+ .gradient_section {
+     width: 100%;
+     height: 200px;
+     background-color: rebeccapurple;
+     background-image: linear-gradient(to right, blue, red, yellow)
+ }
+
+ .animation_section {
+     width: 100%;
+     height: 200px;
+     background-color: aqua;
+     animation: contactanination 10s infinite
+ }
+
+ @keyframes contactanination {
+     0% {
+         background-color: red;
+     }
+
+     50% {
+         background-color: blue;
+     }
+
+     100% {
+         background-color: darkred;
+     }
+ }
